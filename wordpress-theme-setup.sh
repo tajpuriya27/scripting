@@ -18,7 +18,6 @@ case $option in
         mkdir -p assets/css assets/images assets/js inc parts patterns styles templates
         touch inc/ClassName.php inc/functions-helpers.php parts/footer.html parts/header.html patterns/example.php styles/example.json templates/404.html templates/archive.html templates/index.html templates/singular.html
         echo "WordPress Theme folder structure created successfully."
-        break
         ;;
     2 )
         echo "Enter the directory name:"
@@ -29,11 +28,9 @@ case $option in
         mkdir -p assets/css assets/images assets/js inc parts patterns styles templates
         touch inc/ClassName.php inc/functions-helpers.php parts/footer.html parts/header.html patterns/example.php styles/example.json templates/404.html templates/archive.html templates/index.html templates/singular.html
         echo "WordPress Theme folder structure created successfully in $directory directory."
-        break
         ;;
     3 )
         echo "Exiting..."
-        break
         ;;
     * )
         echo "Invalid option"
